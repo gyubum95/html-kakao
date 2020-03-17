@@ -9,7 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <title>Find | gyu kakao</title>
+    <title>Chat | gyu kakao</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,6 +26,9 @@
     </div>
     <header class="header-bar">
       <div class="header-bar__column">
+        <a href="index.html" class="header__back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
         <h1 class="header__title">My Gyubum</h1>
       </div>
       <div class="header-bar__column">
@@ -38,22 +41,51 @@
       </div>
     </header>
     <main class="chat">
-      <h5 class="chat__timestamp">
-        Friday, January 11, 2019
-      </h5>
-      <div class="friends__friend friend friend--lg">
-        <div class="friends__column">
-          <img src="images/avatar.jpg" class="g-avatar friends__avatar" />
-          <div class="friend__content">
-            <span class="friend__name">
-              Su An Kim
+      <ul class="chat__messages">
+        <span class="chat__timestamp">
+          Friday, January 11, 2019
+        </span>
+        <li class="incoming-messages messages">
+          <img src="images/avatar.jpg" class="g-avatar messages__avatar" />
+          <div class="messages__content">
+            <span class="messages__author">
+              GyuBumMon
             </span>
-            <span class="friend__status">
-              I love you GyuBum
+            <div class="messages__bubble">
+              I love you suanmon!!
+            </div>
+          </div>
+          <span class="messages__timestamp">
+            15:19
+          </span>
+        </li>
+        <li class="incoming-messages messages">
+          <span class="messages__timestamp">
+            15:22
+          </span>
+          <div class="messages__content">
+            <span class="messages__bubble">
+              me too!!
             </span>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input type="text" placeholder="write your message" />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="far fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
