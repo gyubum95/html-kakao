@@ -1,0 +1,10 @@
+.nav {
+  position: fixed;
+  background-color: red;
+  width: 100%;
+}
+
+.nav .nav__list {
+  font-size: 22px;
+  display: flex;
+}

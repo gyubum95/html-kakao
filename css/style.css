@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import "status-bar.css";
 @import "header-bar.css";
+@import "nav-bar.css";
 
 body {
   background-color: white;
