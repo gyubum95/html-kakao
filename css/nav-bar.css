@@ -6,11 +6,29 @@
   left: 0;
   padding: 15px 45px;
   border-top: 1px solid #f7f7f7;
-  box-sizing: border-box;
 }
 
 .nav .nav__list {
   font-size: 22px;
   display: flex;
   justify-content: space-between;
+}
+
+.nav .nav__list__link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -4px;
+  right: -3px;
+  color: white;
+  font-size: 10px;
+  background-color: #e65f3f;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
