@@ -5,16 +5,16 @@
 }
 
 .friend .friend__avatar {
-  width: 43px;
+  width: 42px;
   border-radius: 40%;
 }
 
 .friend__avatar.g-avatar {
-  width: 58px;
+  width: 59px;
 }
 
-a {
-  text-decoration: none;
+.friend__avatar.m-avatar {
+  width: 49px;
 }
 
 .friend .friend__column {
@@ -22,19 +22,12 @@ a {
   align-items: center;
 }
 
-.friend .friend__bottom-text {
-  display: block;
-  margin-top: 7px;
-  font-size: 14px;
-  opacity: 0.8;
+.friend .friend__avatar {
+  margin-right: 15px;
 }
 
 .friend .friend__name {
   font-size: 18px;
-}
-
-.friend .friend__content {
-  margin-left: 15px;
 }
 
 .friend .chat__timestamp {
