@@ -5,10 +5,39 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
-  border-radius: 35%;
+  width: 43px;
+  border-radius: 40%;
 }
 
 .friend__avatar.g-avatar {
-  width: 70px;
+  width: 58px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__bottom-text {
+  display: block;
+  margin-top: 7px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.friend .friend__name {
+  font-size: 18px;
+}
+
+.friend .friend__content {
+  margin-left: 15px;
+}
+
+.friend .chat__timestamp {
+  font-size: 12px;
+  opacity: 0.8;
 }
