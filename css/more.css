@@ -1,0 +1,21 @@
+.more .more__btn-list {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more .more__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.more .more__title {
+  padding-top: 18px;
+  padding-bottom: 13px;
+  font-size: 14px;
+  font-weight: 600;
+}
