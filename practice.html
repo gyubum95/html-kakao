@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box Model</title>
     <style>
-      .box {
-        background-color: pink;
-        font-size: 40px;
-      }
-
-      .box:hover {
+      .item-one {
         background-color: red;
       }
-
-      .box:active {
+      .item-two {
         background-color: blue;
       }
 
-      .box:focus {
+      .item-three {
         background-color: green;
+      }
+
+      .item-four {
+        background-color: yellow;
       }
     </style>
   </head>
   <body>
-    <textarea class="box">lalalala</textarea>
+    <div class="container">
+      <div class="item-one">1</div>
+      <div class="item-two">2</div>
+      <div class="item-three">3</div>
+      <div class="item-four">4</div>
+    </div>
   </body>
 </html>
