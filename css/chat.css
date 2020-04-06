@@ -37,6 +37,7 @@
 .chat {
   min-height: 100vh;
   background-image: url("../images/white-waves.png");
+  margin-top: 10px;
 }
 
 .chat-body {
