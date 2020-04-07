@@ -69,26 +69,15 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
 }
 
-.incoming-messages {
+.messages {
   display: flex;
   align-items: center;
-  width: 68%;
-}
-
-.sent-messages {
-  display: flex;
-  align-items: center;
-  width: 33%;
-}
-
-.messages .messages__content {
-  width: 80%;
 }
 
 .incoming-messages img {
   width: 45px;
-  border-radius: 17px;
-  margin-right: 20px;
+  border-radius: 18px;
+  margin-right: 15px;
 }
 
 .incoming-messages {
@@ -100,14 +89,13 @@
 }
 
 .messages .messages__bubble {
+  padding: 10px 20px;
   background-color: white;
+  border-radius: 30px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  padding: 10px 20px;
-  border-radius: 20px;
 }
 
 .messages .messages__timestamp {
   font-size: 12px;
-  align-self: flex-end;
 }
