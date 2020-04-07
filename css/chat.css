@@ -35,13 +35,12 @@
 }
 
 .chat {
-  min-height: 100vh;
   background-image: url("../images/white-waves.png");
-  margin-top: 10px;
+  min-height: 1000vh;
 }
 
 .chat-body {
-  padding: 0px;
+  padding: 10px 0px;
 }
 
 .chat-body .status-bar,
@@ -70,10 +69,16 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
 }
 
-.messages {
+.incoming-messages {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 68%;
+}
+
+.sent-messages {
+  display: flex;
+  align-items: center;
+  width: 33%;
 }
 
 .messages .messages__content {
@@ -100,4 +105,9 @@
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   padding: 10px 20px;
   border-radius: 20px;
+}
+
+.messages .messages__timestamp {
+  font-size: 12px;
+  align-self: flex-end;
 }
