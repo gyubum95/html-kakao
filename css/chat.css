@@ -71,12 +71,12 @@
 
 .messages {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .incoming-messages img {
-  width: 45px;
-  border-radius: 18px;
+  width: 40px;
+  border-radius: 15px;
   margin-right: 15px;
 }
 
@@ -100,18 +100,18 @@
 
 .incoming-messages .messages__timestamp {
   position: absolute;
-  font-size: 12px;
+  font-size: 11px;
   right: 0;
   bottom: 0;
-  margin-right: -30.64px;
+  margin-right: -35.64px;
 }
 
 .sent-messages .messages__timestamp {
   position: absolute;
-  font-size: 12px;
+  font-size: 11px;
   left: 0;
   bottom: 0;
-  margin-left: -30.64px;
+  margin-left: -35.64px;
 }
 
 .sent-messages .messages__author {
