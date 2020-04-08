@@ -72,6 +72,7 @@
 .messages {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .incoming-messages img {
@@ -116,4 +117,23 @@
 
 .sent-messages .messages__author {
   visibility: hidden;
+}
+
+.incoming-messages .messages__author {
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.incoming-messages .messages__bubble {
+  border-top-left-radius: 0px;
+}
+
+.sent-messages .messages__bubble {
+  border-bottom-right-radius: 0px;
+}
+
+.messages__content {
+  width: 80%;
 }
