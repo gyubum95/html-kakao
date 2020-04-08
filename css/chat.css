@@ -82,10 +82,12 @@
 
 .incoming-messages {
   align-self: flex-start;
+  position: relative;
 }
 
 .sent-messages {
   align-self: flex-end;
+  position: relative;
 }
 
 .messages .messages__bubble {
@@ -96,6 +98,22 @@
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
-.messages .messages__timestamp {
+.incoming-messages .messages__timestamp {
+  position: absolute;
   font-size: 12px;
+  right: 0;
+  bottom: 0;
+  margin-right: -30.64px;
+}
+
+.sent-messages .messages__timestamp {
+  position: absolute;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+  margin-left: -30.64px;
+}
+
+.sent-messages .messages__author {
+  visibility: hidden;
 }
