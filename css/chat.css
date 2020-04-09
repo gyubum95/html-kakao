@@ -35,7 +35,7 @@
 }
 
 .chat {
-  background-image: url("../images/white-waves.png");
+  background-image: url("../images/beige-tiles.png");
   min-height: 1000vh;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .incoming-messages .messages__author {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   display: block;
   font-weight: 600;
   font-size: 14px;
@@ -136,5 +136,5 @@
 
 .sent-messages .messages__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to bottom left, #ffffff, #00c6ff);
+  background-image: linear-gradient(to bottom left, #ff8008, #ffc837);
 }
