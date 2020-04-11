@@ -110,6 +110,8 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   color: white;
   font-weight: 600;
+  word-break: keep-all;
+  line-height: 1.4;
 }
 
 .incoming-messages .messages__timestamp {
