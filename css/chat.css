@@ -101,7 +101,7 @@
 }
 
 .messages .messages__bubble {
-  display: block;
+  display: inline-block;
   padding: 10px 20px;
   background-color: white;
   border-radius: 30px;
@@ -110,7 +110,7 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   color: white;
   font-weight: 600;
-  word-break: keep-all;
+  word-break: normal;
   line-height: 1.4;
 }
 
