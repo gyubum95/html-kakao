@@ -88,18 +88,6 @@
   margin-right: 15px;
 }
 
-.incoming-messages {
-  align-self: flex-start;
-  position: relative;
-  max-width: 70%;
-}
-
-.sent-messages {
-  align-self: flex-end;
-  position: relative;
-  max-width: 70%;
-}
-
 .messages .messages__bubble {
   display: inline-block;
   padding: 10px 20px;
@@ -110,8 +98,17 @@
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   color: white;
   font-weight: 600;
-  word-break: normal;
+  position: relative;
   line-height: 1.4;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+.incoming-messages {
+  align-self: flex-start;
+}
+
+.sent-messages {
+  align-self: flex-end;
 }
 
 .incoming-messages .messages__timestamp {
@@ -120,6 +117,8 @@
   right: 0;
   bottom: 0;
   margin-right: -35.64px;
+  color: black;
+  opacity: 0.8;
 }
 
 .sent-messages .messages__timestamp {
@@ -128,6 +127,8 @@
   left: 0;
   bottom: 0;
   margin-left: -35.64px;
+  color: black;
+  opacity: 0.8;
 }
 
 .sent-messages .messages__author {
