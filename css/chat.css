@@ -80,6 +80,15 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.incoming-messages {
+  align-self: flex-start;
+}
+
+.sent-messages {
+  align-self: flex-end;
 }
 
 .incoming-messages img {
@@ -100,15 +109,8 @@
   font-weight: 600;
   position: relative;
   line-height: 1.4;
-  max-width: 80%;
+  max-width: 70%;
   word-wrap: break-word;
-}
-.incoming-messages {
-  align-self: flex-start;
-}
-
-.sent-messages {
-  align-self: flex-end;
 }
 
 .incoming-messages .messages__timestamp {
