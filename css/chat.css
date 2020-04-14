@@ -80,7 +80,7 @@
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .incoming-messages {
@@ -89,6 +89,10 @@
 
 .sent-messages {
   align-self: flex-end;
+}
+
+.messages__content {
+  max-width: 100%;
 }
 
 .incoming-messages img {
@@ -109,7 +113,7 @@
   font-weight: 600;
   position: relative;
   line-height: 1.4;
-  max-width: 70%;
+  max-width: 100%;
   word-wrap: break-word;
 }
 
